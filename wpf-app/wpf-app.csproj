@@ -11,7 +11,7 @@
 
   <ItemGroup>
     <PackageReference Include="example.sourcegen" Version="1.0.0"/>
-    <!--<PackageReference Include="example.contentfiles" Version="1.0.0"/>-->
+    <PackageReference Include="example.contentfiles" Version="1.0.0"/>
   </ItemGroup>
 
 </Project>
