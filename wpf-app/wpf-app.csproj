@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <RootNamespace>wpf_app</RootNamespace>
+    <UseWPF>true</UseWPF>
+    <IncludePackageReferencesDuringMarkupCompilation>true</IncludePackageReferencesDuringMarkupCompilation>
+    <BaseOutputPath>..\Binaries\$(MSBuildProjectName)</BaseOutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="example.sourcegen" Version="1.0.0"/>
+    <!--<PackageReference Include="example.contentfiles" Version="1.0.0"/>-->
+  </ItemGroup>
+
+</Project>
